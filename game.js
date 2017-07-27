@@ -1,4 +1,4 @@
-var computerChoices = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+var computerChoices = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 
 
 var wins = 0;
@@ -22,7 +22,7 @@ var updateLetterToGuess = function() {
 };
 var updateGuessesSoFar = function() {
    
-  document.querySelector('#let').innerHTML = "Your Guesses so far: " + guessedLetters.join(', ');
+  document.querySelector('#letters').innerHTML = "You entered: " + guessedLetters.join(', ');
 };
 
 var reset = function() {
